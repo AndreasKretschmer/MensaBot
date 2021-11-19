@@ -19,7 +19,7 @@ def FilterResponse(Date):
         meals = mensa.find_all("div", class_="meals__head")
         for meal in meals:
             gericht = {"Name": meal.find("h4").text ,"Zutaten": "","Preis": "2.00","Zusatzstoffe": [],"Allergene": [],"Labels": []};
-            menus[mensaCounter]["Gericht"]
+            menus[mensaCounter]["Gericht"] += gericht
 
         mensaCounter += 1
 
