@@ -8,6 +8,9 @@ from bs4 import BeautifulSoup
 base_url = "https://www.studentenwerk-leipzig.de/mensen-cafeterien/speiseplan"
 #url = "https://www.studentenwerk-leipzig.de/mensen-cafeterien/speiseplan?location=106&date=2021-11-19&criteria=&meal_type=all"
 
+"""
+test
+"""
 
 # define main function
 def main():
