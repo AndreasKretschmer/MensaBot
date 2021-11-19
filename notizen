@@ -1,0 +1,101 @@
+
+Format:
+
+Mensa Name 
+Kategorie (Fisch, Fleisch, Vegetarisch...) - section
+Gerichtname (Preis)
+status: (Vegetarisch Vegan Schwein Rind Wild Lamm Geflügel)
+Beilagen: Salat, Käse, Schoko
+Zusatzstoffe: 12, 123
+Allergene: 123, 213
+
+
+{
+    Fleisch: [
+        Hähnchen:{
+            Preis: "3,05 € / 4,90 € / 6,70 €",
+            Beilagen: ["bla", "blub"]
+            Sortiment: "Vegan",
+            Zusatzstoffe: [12, 76],
+            Allergene: [12, 435]
+        },
+        Steak
+    ],
+    Fisch: [
+        Tuna
+    ]
+    WOK: [
+        Wok-Gemüse,
+        Buntes Wokgemüse mit Sushi Balls
+    ]
+}
+
+<header class="accordion__head">
+<div class="meals__head">
+    <div class="meals__summary">
+        <h4 class="meals__name">Ananas-Blutorangen Smoothie</h4>
+        <p class="meals__price">
+            <span class="u-hidden">Preise:</span>
+            1,80 € / 2,20 € / 2,95 €
+        </p>
+    </div>
+
+    <p class="meals__badges">
+      <span class="u-hidden">Zutaten:</span>
+                                          <i class="meals__badge" data-icon="vegan" title="Veganes Gericht"><span class="u-hidden">Veganes Gericht</span></i>
+                                      </p>
+                              </div>
+</header>
+</section>
+                                                            <section class="accordion__item">
+<header class="accordion__head">
+<div class="meals__head">
+  <div class="meals__summary">
+    <h4 class="meals__name">Waldbeer-Schwarze Johannisbeer Smoothie</h4>
+                                      <p class="meals__price">
+        <span class="u-hidden">Preise:</span>
+        1,80 € / 2,20 € / 2,95 €                                  </p>
+                                  </div>
+
+                                  <p class="meals__badges">
+      <span class="u-hidden">Zutaten:</span>
+                                          <i class="meals__badge" data-icon="vegan" title="Veganes Gericht"><span class="u-hidden">Veganes Gericht</span></i>
+                                      </p>
+                              </div>
+</header>
+</section>
+                                                            <section class="accordion__item">
+<header class="accordion__head">
+<div class="meals__head">
+  <div class="meals__summary">
+    <h4 class="meals__name">Genießen Sie unsere frischen Smoothies!</h4>
+                                      <p class="meals__price">
+        <span class="u-hidden">Preise:</span>
+        1,80 € / 2,20 € / 2,95 €                                  </p>
+                                  </div>
+
+                                  <p class="meals__badges">
+      <span class="u-hidden">Zutaten:</span>
+                                          <i class="meals__badge" data-icon="vegan" title="Veganes Gericht"><span class="u-hidden">Veganes Gericht</span></i>
+                                      </p>
+                              </div>
+</header>
+</section>
+                                                            <section class="accordion__item">
+<header class="accordion__head">
+<div class="meals__head">
+  <div class="meals__summary">
+    <h4 class="meals__name">Mango-Aprikose Karotten Smoothie</h4>
+                                      <p class="meals__price">
+        <span class="u-hidden">Preise:</span>
+        1,80 € / 2,20 € / 2,95 €                                  </p>
+                                  </div>
+
+                                  <p class="meals__badges">
+      <span class="u-hidden">Zutaten:</span>
+                                          <i class="meals__badge" data-icon="vegan" title="Veganes Gericht"><span class="u-hidden">Veganes Gericht</span></i>
+                                      </p>
+                              </div>
+</header>
+</section>
+                                                                                        
